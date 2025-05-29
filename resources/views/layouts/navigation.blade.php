@@ -30,6 +30,15 @@
             </li>
 
             <li class="nav-item">
+                <a href="{{ route('students.index') }}" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>
+                        {{ __('Students') }}
+                    </p>
+                </a>
+            </li>
+
+            <li class="nav-item">
                 <a href="{{ route('employee.index') }}" class="nav-link">
                     <i class="nav-icon far fa-address-card"></i>
                     <p>
